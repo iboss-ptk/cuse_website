@@ -4,6 +4,8 @@ require 'capistrano/setup'
 # Includes default deployment tasks
 require 'capistrano/deploy'
 
+# DB sync
+require 'capistrano/wpcli'
 # Includes tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
