@@ -44,7 +44,6 @@
     "johnpbloch/wordpress": "4.1",
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "1.0.9",
-    // "wp-cli/wp-cli": ">=v0.13.0",
     "psy/psysh": "dev-develop",
     "wpackagist-plugin/advanced-custom-fields": ">=4.3.5",
     "wpackagist-plugin/custom-post-type-ui": ">=0.8.2"
