@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9105bc482da8a4a40f5208cae7e8442",
+    "hash": "3eda4730632ce34d333d5d4ee223031e",
     "packages": [
         {
             "name": "composer/installers",
@@ -535,6 +535,26 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/all-in-one-event-calendar",
+            "version": "2.1.9",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/all-in-one-event-calendar/",
+                "reference": "tags/2.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/all-in-one-event-calendar.2.1.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-event-calendar/"
+        },
+        {
             "name": "wpackagist-plugin/custom-post-type-ui",
             "version": "0.8.5",
             "source": {
@@ -556,15 +576,15 @@
         },
         {
             "name": "wpackagist-plugin/database-sync",
-            "version": "0.3.1",
+            "version": "0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/database-sync/",
-                "reference": "tags/0.3.1"
+                "reference": "tags/0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/database-sync.0.3.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/database-sync.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -573,6 +593,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/database-sync/"
+        },
+        {
+            "name": "wpackagist-plugin/feed-them-social",
+            "version": "1.6.7",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/feed-them-social/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/feed-them-social.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/feed-them-social/"
+        },
+        {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "3.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/jetpack.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
         }
     ],
     "packages-dev": [],
@@ -582,7 +642,6 @@
         "psy/psysh": 20
     },
     "prefer-stable": false,
-    "prefer-lowest": false,
     "platform": {
         "php": ">=5.4"
     },
