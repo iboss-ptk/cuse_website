@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9105bc482da8a4a40f5208cae7e8442",
+    "hash": "853c9be2823f1ddaf244fcb5e89a24b3",
     "packages": [
         {
             "name": "composer/installers",
@@ -293,16 +293,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "a8ffc6fcfcbae268656c8acf1298e378ac1ee5f1"
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a8ffc6fcfcbae268656c8acf1298e378ac1ee5f1",
-                "reference": "a8ffc6fcfcbae268656c8acf1298e378ac1ee5f1",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ac05ef6f95bf8361549604b6031c115f92f39528",
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2014-11-04 22:12:46"
+            "time": "2015-01-18 11:29:59"
         },
         {
             "name": "psy/psysh",
@@ -342,12 +342,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "451ee32a58e054a8f6361981a7877d7dfce4400a"
+                "reference": "e51fea633ac492efde59eb03c7a949bcb027f650"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/451ee32a58e054a8f6361981a7877d7dfce4400a",
-                "reference": "451ee32a58e054a8f6361981a7877d7dfce4400a",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/e51fea633ac492efde59eb03c7a949bcb027f650",
+                "reference": "e51fea633ac492efde59eb03c7a949bcb027f650",
                 "shasum": ""
             },
             "require": {
@@ -404,21 +404,65 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2014-12-27 17:37:49"
+            "time": "2015-01-27 21:47:37"
+        },
+        {
+            "name": "roots/soil",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/soil.git",
+                "reference": "2247e2bd386d4cbc4d72ffb5fd1be6a219109db7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/soil/zipball/2247e2bd386d4cbc4d72ffb5fd1be6a219109db7",
+                "reference": "2247e2bd386d4cbc4d72ffb5fd1be6a219109db7",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw",
+                    "role": "Roots/Bedrock developer"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs",
+                    "role": "Roots/Bedrock developer"
+                }
+            ],
+            "description": "Clean up WordPress markup, relative URLs, nice search",
+            "homepage": "http://roots.io/plugins/soil/",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2014-04-01 01:30:23"
         },
         {
             "name": "symfony/console",
-            "version": "v2.6.1",
+            "version": "v2.6.3",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "ef825fd9f809d275926547c9e57cbf14968793e8"
+                "reference": "6ac6491ff60c0e5a941db3ccdc75a07adbb61476"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/ef825fd9f809d275926547c9e57cbf14968793e8",
-                "reference": "ef825fd9f809d275926547c9e57cbf14968793e8",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/6ac6491ff60c0e5a941db3ccdc75a07adbb61476",
+                "reference": "6ac6491ff60c0e5a941db3ccdc75a07adbb61476",
                 "shasum": ""
             },
             "require": {
@@ -461,7 +505,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:20"
+            "time": "2015-01-06 17:50:02"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -556,15 +600,15 @@
         },
         {
             "name": "wpackagist-plugin/database-sync",
-            "version": "0.3.1",
+            "version": "0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/database-sync/",
-                "reference": "tags/0.3.1"
+                "reference": "tags/0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/database-sync.0.3.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/database-sync.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -573,6 +617,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/database-sync/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-api",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-api/",
+                "reference": "tags/1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-api.1.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-api/"
         }
     ],
     "packages-dev": [],
