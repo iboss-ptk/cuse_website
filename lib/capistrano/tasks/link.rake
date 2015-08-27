@@ -41,3 +41,5 @@ task :set_env do
 		invoke "link_themes"
 	end 
 end
+
+# bin/hadoop jar $HADOOP_HOME/hadoop-streaming.jar -mapper /usr/local/hadoop/mapper.py -reducer /usr/local/hadoop/reducer.py -input /usr/local/hadoop/iboss/* -output /usr/local/hadoop/iboss-output

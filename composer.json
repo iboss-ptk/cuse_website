@@ -48,8 +48,10 @@
     "psy/psysh": "dev-develop",
     "wpackagist-plugin/advanced-custom-fields": ">=4.3.5",
     "wpackagist-plugin/custom-post-type-ui": ">=0.8.2",
-    "wpackagist-plugin/database-sync": ">=0.3.1",
-    "wpackagist-plugin/wp-api": ">=1.0.3"
+    "wpackagist-plugin/database-sync": ">=0.4",
+    "wpackagist-plugin/jetpack": ">=3.3",
+    "wpackagist-plugin/feed-them-social": ">=1.6.7",
+    "wpackagist-plugin/all-in-one-event-calendar": ">=2.1.9"
   },
   "extra": {
     "installer-paths": {
